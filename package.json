@@ -1,0 +1,59 @@
+{
+  "name": "novacomp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-navigation/native": "6.0.13",
+    "@react-navigation/native-stack": "6.4.0",
+    "@reduxjs/toolkit": "^2.2.5",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-hooks": "^8.0.1",
+    "axios": "^1.7.2",
+    "react": "18.1.0",
+    "react-native": "0.70.10",
+    "react-native-gesture-handler": "^2.16.2",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-paper": "^5.12.3",
+    "react-native-reanimated": "3.8.1",
+    "react-native-safe-area-context": "^4.10.4",
+    "react-native-screens": "3.14.0",
+    "react-native-vector-icons": "^10.1.0",
+    "react-redux": "^9.1.2",
+    "redux-mock-store": "^1.5.4",
+    "styled-components": "^6.1.11",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/react-native": "^12.5.1",
+    "@tsconfig/react-native": "^2.0.2",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.0.21",
+    "@types/react-native": "^0.70.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "@types/redux-mock-store": "^1.0.6",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^7.32.0",
+    "jest": "^29.7.0",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "^18.3.1",
+    "typescript": "^4.8.3"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
